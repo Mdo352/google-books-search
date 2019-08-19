@@ -18,7 +18,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/googlebooks",
+  process.env.MONGODB_URI || "mongodb://BookSearch:pencil24@ds311128.mlab.com:11128/heroku_b2c4rsmx",
   {
     useCreateIndex: true,
     useNewUrlParser: true
